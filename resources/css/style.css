@@ -1,0 +1,193 @@
+html {
+	font: 14px Open Sans, Sans;
+}
+
+.active {
+	color: #399bd1;
+}
+
+nav a {
+	color: #399bd1;
+}
+
+nav img {
+	margin-top: 15px;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+}
+
+h3 {
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+.jumbotron-bike {
+	background-image: url("../images/jumbotron-bike.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+
+.jumbotron-beer {
+	background-image: url("../images/jumbotron-beer.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+
+.jumbotron-flowers {
+	background-image: url("../images/jumbotron-flowers.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+
+.jumbotron-duffel {
+	background-image: url("../images/jumbotron-duffel.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+
+.jumbotron {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 39.2rem;
+}
+
+.jumbotron h1 {
+	margin-top: 11.85rem;
+	text-align: center;
+	font: 7.1rem Monoton ;
+	color: white;
+	text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; 
+	line-height: 0;
+}
+
+.jumbotron p {
+	margin-top: 4rem;
+	text-align: center;
+	font-size: 1.75rem; 
+	margin-left: auto;
+	margin-right: auto;
+	width: 51rem;
+	color: white;
+	text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; 
+}
+
+.button-container {
+	width: 100%;
+		position: absolute;
+	top: 23.4rem;
+	height: 2rem;
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	background-color: #399bd1;
+	margin-top: 2.8rem;
+	margin-bottom: 11.85rem;
+	width: 11.4rem;
+	color: white;
+	padding: 1.3rem 0;
+	text-align: center;
+	box-shadow: 0 0 0 rgba(0,0,0,0.5);
+	height: 4.6rem;
+
+}
+
+.having-trouble button {
+	position: initial;
+}
+
+.carousel button {
+	position: initial;
+	opacity: 0;
+}
+
+button:hover {
+	box-shadow: 0 0 12px rgba(0,0,0,0.9);
+}
+
+button:active {
+	box-shadow: 0 0 0 rgba(0,0,0,0.5);
+}
+
+.projects img {
+	opacity: 0.6;
+}
+
+.having-trouble{
+	background-color: #f3f3f3;
+	padding: 5.2rem 0;
+}
+
+.having-trouble div {
+	text-align: center;
+}
+
+.having-trouble h2{
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin-bottom: 1.4rem;
+}
+
+.having-trouble p {
+	width: 42rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.having-trouble button {
+	margin-bottom: 0;
+	margin-top: 1.4rem;
+}
+
+.projects h2, .featured-project h2 {
+	margin: 20px 0 20px 15px;
+	color: #399bd1;
+	font-size: 1.7rem;
+	font-weight: bold;
+
+}
+
+.featured-project div.col-xs-6:last-child h3 {
+	color: #399bd1;
+}
+
+.featured-project div.col-xs-6:last-child li {
+	color: rgba(0,0,0,0.7);
+	line-height: 1.4;
+};
+
+.projects p {
+	margin-bottom: 5.85rem;
+}
+
+.image-container img:hover {
+	transition: transform 0.5s, opacity 0.5s;
+	opacity: 1;
+	transform: scale(1.3,1.3);
+	overflow: hidden;
+}
+
+.image-container {
+	overflow: hidden;
+}
+
+@media only screen and (max-width: 991px) {
+
+	.navbar-header {
+		display: none;
+	}
+
+	.jumbotron h1 {
+		font-size: 5.7rem;
+	}
+}
